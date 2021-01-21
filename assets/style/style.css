@@ -1,0 +1,35 @@
+body {
+    color: black;
+    background-color:white;
+    /* background-image: url("images/blue2.png");
+    background-position: top;
+    background-size: cover; */
+}
+
+#myPhoto{
+    max-height: 200px;
+}
+
+/* div {
+    border: solid white 1px;
+} */
+
+header {
+    border: 2px solid orange;
+}
+
+/* main {
+    border: solid red 10px;
+} */
+
+.orange {
+    border: solid orange 10px;
+}
+
+/* footer {
+    border: solid red 10px;
+} */
+
+.portfolioImg {
+    width: 200px;
+}
