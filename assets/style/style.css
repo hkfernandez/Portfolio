@@ -1,6 +1,7 @@
 body {
     color: black;
     background-color:white;
+	font-family: 'Courier New', Courier, monospace;
     /* background-image: url("images/blue2.png");
     background-position: top;
     background-size: cover; */
@@ -14,19 +15,17 @@ body {
     border: solid white 1px;
 } */
 
-header {
-    border: 2px solid orange;
-}
+
 
 /* main {
     border: solid red 10px;
 } */
 
 
-.orangeBorderSquare {
+/* .orangeBorderSquare {
     border: solid orange 15px;
     box-sizing: border-box;
-}
+} */
 
 /* footer {
     border: solid red 10px;
@@ -41,4 +40,29 @@ header {
     margin: auto;
     text-align: center;
     background-color: white;
+}
+
+.portfolio-card {
+	margin-bottom: 2em;
+	border: none;
+	background-color: white;
+}
+
+.border-bottom {
+	border-bottom: 5px solid black;
+	padding-bottom: 1em;
+	margin-bottom: 2em;
+}
+
+.button {
+	color: black;
+	border-bottom: 1px solid black;
+	padding: .5em;
+	/* margin: .5em; */
+	margin-bottom: 1.5em;
+	font-weight: 500;
+}
+
+p {
+	margin-top: 1em;
 }
