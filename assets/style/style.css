@@ -55,13 +55,29 @@ body {
 }
 
 .button {
+	display: inline-block;
 	color: black;
-	border-bottom: 1px solid black;
-	padding: .5em;
+	border-left: 2px solid black;
+	/* border-right: 1px solid black; */
+	padding: .125em .75em;
 	/* margin: .5em; */
-	margin-bottom: 1.5em;
+	margin-bottom: .25em;
 	font-weight: 500;
 }
+.button:link {
+	color: black;
+  }
+  a:visited {
+	color: black;
+  }
+  a:hover {
+	font-weight: 700;
+	text-decoration: none;
+  }
+
+  a:active {
+	font-style: italic;
+  }
 
 p {
 	margin-top: 1em;
